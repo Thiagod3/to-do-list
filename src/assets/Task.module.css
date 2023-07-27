@@ -44,6 +44,8 @@
 .taskCompleted p{
     color: var(---gray300);
     text-decoration: line-through;
+    word-wrap: break-word;
+    max-width: 40rem;
 }
 
 /*Tarefas a completar*/
@@ -84,4 +86,10 @@
 
 .task .rmv :hover{
     color: var(---danger);
+}
+
+.task p{
+    word-wrap: break-word;
+    
+    max-width: 40rem;
 }
