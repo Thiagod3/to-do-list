@@ -1,5 +1,5 @@
 import { RocketLaunch } from "phosphor-react"
-import { List } from "./assets/list";
+import { List } from "./assets/List";
 import {  } from "react";
 import "./App.css";
 
