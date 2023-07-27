@@ -1,0 +1,30 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 12.5rem;
+  background-color: var(---gray700);
+
+  font-size: 4rem;
+  color: var(---purple);
+}
+
+.Logo strong{
+  color: var(---blue);
+
+}
